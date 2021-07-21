@@ -17,8 +17,8 @@ public class BookRepository {
     public Book findByIsbn(String isbn){
         return books.get(isbn);
     }
-    public void delete(String isbn){
-        books.remove(isbn);
+    public Book delete(String isbn){
+        return books.remove(isbn);
     }
 
     public Collection<Book> findAll(){
