@@ -44,4 +44,14 @@ public class Book {
     public void setPrice(Double price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "isbn='" + isbn + '\'' +
+                ", author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }

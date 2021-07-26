@@ -26,6 +26,7 @@ public class BookService {
     }
     public void delete(String isbn){
         Book book = bookRepository.delete(isbn);
+        System.out.println(book);
         jmsSender.sendMessage(book);
     }
     public Book getBook(String isbn){
