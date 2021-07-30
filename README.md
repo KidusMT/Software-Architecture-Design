@@ -61,3 +61,42 @@ for running and stopping ELK service in linux
   508  sudo systemctl status elasticsearch.service 
   509  sudo systemctl status kibana.service 
 ```
+
+logstash configurations
+
+```
+# Sample Logstash configuration for creating a simple
+# Beats -> Logstash -> Elasticsearch pipeline.
+
+input {
+  file {
+    type => "java"
+    path => "/home/kidusmt/Documents/CS590-SA/elk-linux/spring-boot-elk2.log"
+    codec => multiline {
+      pattern => "^%{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{TIME}.*"
+      negate => "true"
+      what => "previous"
+    }
+  }
+  beats {
+    port => 5044
+  }
+}
+
+output {
+  stdout {
+    codec => rubydebug
+  }
+  file {
+    path => "/home/kidusmt/Documents/CS590-SA/elk-linux/testlog.log"
+    create_if_deleted => true
+  }
+  elasticsearch {
+    hosts => ["http://localhost:9200"]
+    index => "%{[@metadata][beat]}-%{[@metadata][version]}-%{+YYYY.MM.dd}"
+    #user => "elastic"
+    #password => "changeme"
+  }
+}
+
+```
