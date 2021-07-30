@@ -1,6 +1,6 @@
 # CS590-SoftwareArchitecture
 
-## issues might caused by elastic installation (linux os)
+## Issues that might be caused by elastic installation (linux os)
 - [installation guide](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html)
 - [optinoal installation](https://phoenixnap.com/kb/how-to-install-elk-stack-on-ubuntu)
 - [THE COMPLETE GUIDE TO THE ELK STACK](https://logz.io/learn/complete-guide-elk-stack/#intro)
