@@ -2,6 +2,7 @@
 
 ## issues might caused by elastic installation (linux os)
 - [installation guide](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html)
+- [optinoal installation](https://phoenixnap.com/kb/how-to-install-elk-stack-on-ubuntu)
 - [SO](https://stackoverflow.com/questions/58656747/elasticsearch-job-for-elasticsearch-service-failed)
 - [discuss.elastic.co - 1](https://discuss.elastic.co/t/unable-to-start-elasticsearch-as-service/178440)
 - [discuss.elastic.co - 2](https://discuss.elastic.co/t/java-lang-illegalstateexception-unable-to-access-path-data-var-lib-elasticsearch/238456)
