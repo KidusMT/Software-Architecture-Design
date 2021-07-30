@@ -50,3 +50,14 @@
   501  sudo systemctl status elasticsearch
 
 ```
+
+for running and stopping ELK service in linux
+```
+  503  sudo systemctl status logstash
+  504  sudo systemctl stop elasticsearch
+  505  sudo systemctl stop logstash
+  506  sudo systemctl stop kibana.service 
+  507  sudo systemctl status logstash
+  508  sudo systemctl status elasticsearch.service 
+  509  sudo systemctl status kibana.service 
+```
