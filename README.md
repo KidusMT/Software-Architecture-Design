@@ -54,7 +54,7 @@
 for running and stopping ELK service in linux
 ```
   503  sudo systemctl status logstash
-  504  sudo systemctl stop elasticsearch
+  504  sudo systemctl start elasticsearch
   505  sudo systemctl stop logstash
   506  sudo systemctl stop kibana.service 
   507  sudo systemctl status logstash
