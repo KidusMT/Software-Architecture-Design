@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+      - id: productModule
+        uri: http://localhost:8901/
+        predicates:
+        - Path=/product/**
+      - id: stock1Module
+        uri: http://localhost:8900/
+        predicates:
+        - Path=/stock/**
+      - id: stock2Module
+        uri: http://localhost:8902/
+        predicates:
+        - Path=/stock/**
+            
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaserver1:8761/eureka/
+
+
+

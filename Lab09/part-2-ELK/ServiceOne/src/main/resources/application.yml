@@ -1,0 +1,18 @@
+logging:
+  file:
+    name: /home/kidusmt/Documents/CS590-SA/elk-linux/spring-boot-elk2.log
+
+server:
+  port: 9093
+
+spring:
+  application:
+    name: ServiceOne
+  zipkin:
+    base-url: http://localhost:9411/
+
+sleuth:
+  sampler:
+    probability: 1 #100% (default = 10%)
+
+
