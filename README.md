@@ -102,3 +102,7 @@ output {
 }
 
 ```
+
+## ActiveMQ
+- [Installation Guide for ActiveMQ](https://websiteforstudents.com/how-to-install-apache-activemq-on-ubuntu-18-04-16-04/)
+- [very nice solution for data serialization problem in Receiver Service](https://stackoverflow.com/a/45527148/60217400)
