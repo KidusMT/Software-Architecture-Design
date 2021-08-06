@@ -108,3 +108,5 @@ output {
 - [very nice solution for data serialization problem in Receiver Service](https://stackoverflow.com/a/45527148/60217400)
 
 ## [Spring Awesome](https://github.com/ThomasVitale/awesome-spring)
+
+## [RabbitMQ - Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
