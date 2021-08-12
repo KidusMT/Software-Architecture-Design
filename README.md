@@ -141,3 +141,4 @@ kidusmt@kmt:~/Documents/CS590-SA/zipkin$  sudo java -jar zipkin-server-2.23.2-ex
 
 ## [Logstash Tutorial: How to Get Started](https://logz.io/blog/logstash-tutorial/)
 ## [just-enough-kafka-for-the-elastic-stack](https://www.elastic.co/blog/just-enough-kafka-for-the-elastic-stack-part1)
+## [Spring-Cloud-Gateway Configurations](https://cloud.spring.io/spring-cloud-gateway/reference/html/#the-loadbalancerclient-filter)
