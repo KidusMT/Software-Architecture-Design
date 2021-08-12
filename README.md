@@ -113,3 +113,30 @@ output {
 
 
 ## [ELK Stack Configuration with FileBeats and Kafka Stream](https://logz.io/blog/deploying-kafka-with-elk/)
+
+```
+For creating topic with kafka stream
+./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic kafka_logstash
+
+// starting and stopping: logstash, kibana and elasticsearch
+
+  772  sudo systemctl start logstash.service
+  773  sudo systemctl status logstash.service
+  774  sudo systemctl status elasticsearch.service 
+  775  sudo systemctl status logstash.service
+  
+  
+// terminal command for starting/stopping: zookeeper, kafka-server and KafkaMagic
+  714  sudo bin/zookeeper-server-start.sh config/zookeeper.properties
+  715  pwd
+  716  sudo bin/kafka-server-start.sh config/server.properties
+  717  pwd
+  718  sudo chmod 777 KafkaMagic
+  719  sudo ./KafkaMagic
+  
+  
+// for starting zipking tracing:
+kidusmt@kmt:~/Documents/CS590-SA/zipkin$  sudo java -jar zipkin-server-2.23.2-exec.jar
+```
+
+## [Logstash Tutorial: How to Get Started](https://logz.io/blog/logstash-tutorial/)
