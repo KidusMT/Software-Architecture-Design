@@ -110,3 +110,6 @@ output {
 ## [Spring Awesome](https://github.com/ThomasVitale/awesome-spring)
 
 ## [RabbitMQ - Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
+
+
+## [ELK Stack Configuration with FileBeats and Kafka Stream](https://logz.io/blog/deploying-kafka-with-elk/)
