@@ -1,5 +1,32 @@
 # CS590-SoftwareArchitecture
 
+## Final Project
+- Over all architecture:
+
+![Screenshot from 2021-08-15 05-03-15](https://user-images.githubusercontent.com/18373774/129474804-a1546cf1-f2e8-4e71-97e6-40f14b8bf39f.png)
+
+- Class Diagram:
+
+![SWA-Project-KidusTekeste-612361 (1)](https://user-images.githubusercontent.com/18373774/129474907-7352507c-2b44-4a62-af62-15c6cb2baafb.png)
+
+
+
+- List of repos for Final Porject:
+* [X] [CustomerService](https://github.com/KidusMT/CustomerService)
+* [X] [ProductService](https://github.com/KidusMT/ProductService)
+* [X] [ProductServiceReplica2](https://github.com/KidusMT/ProductServiceReplica2)
+* [X] [ProductServiceReplica3](https://github.com/KidusMT/ProductServiceReplica3)
+* [X] [ShoppingCartCommandService](https://github.com/KidusMT/ShoppingCartCommandService)
+* [X] [ShoppingCartQueryService](https://github.com/KidusMT/ShoppingCartQueryService)
+* [x] [OrderService](https://github.com/KidusMT/OrderService)
+* [X] [Service Discovery | Registry | EurekaServer1](https://github.com/KidusMT/EurekaServer1)
+* [X] [Service Discovery | Registry | EurekaServer2](https://github.com/KidusMT/EurekaServer2)
+* [X] [API-Gateway](https://github.com/KidusMT/CloudGateway)
+* [X] [ConfigServer](https://github.com/KidusMT/ConfigServer)
+* [X] [ConfigurationFiles](https://github.com/KidusMT/springcloud)
+
+
+
 ## Issues that might be caused by elastic installation (linux os)
 - [installation guide](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html)
 - [optinoal installation](https://phoenixnap.com/kb/how-to-install-elk-stack-on-ubuntu)
